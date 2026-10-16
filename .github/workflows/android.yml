@@ -21,9 +21,9 @@ jobs:
 
       - name: Install Android platform 34 (runner already has SDK)
         run: |
-          echo "ANDROID_HOME=$ANDROID_HOME"
-          yes | sdkmanager --licenses
-          sdkmanager "platforms;android-34" "platform-tools" "build-tools;34.0.0"
+          export SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMANAGER" --licenses
+          "$SDKMANAGER" "platforms;android-34" "platform-tools" "build-tools;34.0.0"
 
       - name: Set up Gradle 8.7 (no wrapper needed)
         uses: gradle/actions/setup-gradle@v3
