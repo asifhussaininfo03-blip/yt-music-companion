@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">YT Companion</string>
+    <string name="open_yt_music">Open YouTube Music</string>
+    <string name="yt_music_missing">YouTube Music is not installed. You will be sent to the Play Store.</string>
+    <string name="yt_music_installed">YouTube Music detected.</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="settings_title">Settings</string>
+    <string name="accent_title">Accent color</string>
+    <string name="dark_mode_title">Dark mode (always on for now)</string>
+    <string name="dynamic_color_title">Use system dynamic color</string>
+    <string name="shortcuts_title">Shortcuts</string>
+    <string name="local_player_title">Local player (coming in Phase 3)</string>
+    <string name="compliance_note">This app only launches the official YouTube Music app. It does not download, extract, or strip ads from YouTube content.</string>
+</resources>

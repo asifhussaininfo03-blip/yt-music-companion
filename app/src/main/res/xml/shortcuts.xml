@@ -1,0 +1,13 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="open_yt_music"
+        android:shortcutLongLabel="@string/open_yt_music"
+        android:shortcutShortLabel="@string/open_yt_music">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.personal.ytcompanion.MainActivity"
+            android:targetPackage="com.personal.ytcompanion" />
+    </shortcut>
+</shortcuts>
